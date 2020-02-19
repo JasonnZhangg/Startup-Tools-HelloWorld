@@ -13,8 +13,8 @@ before_deploy:
 deploy:
   provider: script
   skip_cleanup: true
-  script: scp StartupToolsHelloWorld.html j83zhang@moon.scs.ryerson.ca:/home/j83zhang/cps847/Assignment2
-
+  script: scp StartupToolsHelloWorld.html j83zhang@moon.scs.ryerson.ca:/home/avm/courses/cps847/j83zhang
+  
 # dd:
 #- openssl aes-256-cbc -K $encrypted_272301d823e6_key -iv $encrypted_272301d823e6_iv
 #  -in deploy_rsa.enc -out deploy_rsa -d
