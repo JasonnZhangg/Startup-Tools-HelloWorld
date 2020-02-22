@@ -1,4 +1,4 @@
-language: minimal
+language: minimal 
 addons:
   # add our deploy server to known hosts
   # you can set environmental variable in Travis GUI
